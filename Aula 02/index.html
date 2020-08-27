@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 02</title>
+</head>
+<body>
+    <!--  
+        CTRL + ; = comentário
+        CTRL + space = recarrega as sugestões
+    -->
+
+    <!-- inputs -->
+    <input type="color">
+    <br>
+    <input type="checkbox">
+    <br>
+    <input type="radio">
+    <br>
+    <input type="range" max="100" value="90">
+    <br>
+    <input type="search">
+    <br>
+    <input type="date">
+    <br>
+    <input type="number">
+    <br>
+    <input type="file">
+    <br><br>
+    <label for="texto">Escreva seu texto</label>
+    <br>
+    <input type="text" placeholder="Escreva seu texto" id="texto">
+    <br>
+    <input type="email">
+    <br>
+    <input type="password">
+
+    <!-- formulários -->
+    <form action="!#">
+        <input type="email" name="email">
+        <br>
+        <input type="password" name="senha">
+        <br>
+        <!-- o elemento button é necessário para que os dados sejam enviados -->
+        <button>Enviar</button>
+    </form>
+
+    <!-- exemplo de input file ativado por uma label -->
+    <label for="arq">Selecione um arquivo</label>
+    <input type="file" name="arquivo" style="display: none;" id="arq">
+    <br>
+    <button>Enviar</button>
+</body>
+</html>
